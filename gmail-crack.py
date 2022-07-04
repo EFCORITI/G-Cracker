@@ -59,7 +59,7 @@ def ano ():
                print("Password Found  :  ",password)
                break
            except smtplib.SMTPAuthenticationError :
-                print("Passwor injections  :  ",password)
+                print("Password injections  :  ",password)
         input("Enter Your Continue  :  ")
     else:
         print(">>>not gmail")
